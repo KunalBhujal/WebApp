@@ -1,19 +1,12 @@
-package com.demo.webapp.jwtservice;
+package com.demo.webapp.service;
 
 import java.security.Key;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
-
-import com.demo.webapp.controller.AuthenticationResponse;
-import com.demo.webapp.model.WebEntity;
-import com.demo.webapp.repository.WebRepository;
-
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

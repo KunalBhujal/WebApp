@@ -1,4 +1,4 @@
-package com.demo.webapp.controller;
+package com.demo.webapp.authenticationresponse;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
