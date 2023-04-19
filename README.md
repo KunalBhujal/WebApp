@@ -22,3 +22,4 @@ To run this project, you will need to add the following environment variables to
 3. Now open postman, and user the API **RegisterCustomer** to register new user to database. Add required fields to the **Body** in postman and send request.
 4. To authenticate the registered user from the database, use **AuthenticateCustomer/Admin** API. This will generate a token in response for that particular user which will be stored in **{{TOKEN}}** and will be accessed by Postman on its own for further API calls.
 5. All the APIs can be accessed in a similar manner.
+### Refer [Documentation](https://drive.google.com/file/d/1XwXUHgMPkGAldr6JuSRzGXVGKIosZ7Nq/view?usp=share_link) for reference.
