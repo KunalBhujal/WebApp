@@ -9,7 +9,7 @@ This app deals with adding the user and products to the database. The users are 
 
 ### Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add the following environment variables.
 
 `JDBC_USERNAME:root`
 
